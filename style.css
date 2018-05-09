@@ -73,11 +73,37 @@ p {
 
 #card-image-intrest-size {
   height: 150px;
-  width: 25%;
+  width: 40%;
   border-radius: 25%;
   position: static;
 }
 
+.sidebar {
+  width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #4b4e4f;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #3d9637;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #064579;
+}
+
+#page-content {
+  margin-left: 300px;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
