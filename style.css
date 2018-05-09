@@ -59,7 +59,7 @@ p {
 }
 
 .card-image-size {
-  height: 150px;
+  height: 200px;
   width: 30%;
   border-radius: 25%;
   position: static;
@@ -72,9 +72,10 @@ p {
 
 
 #card-image-intrest-size {
-  height: 200px;
-  width: 150px;
-  border-radius: 50%
+  height: 150px;
+  width: 25%;
+  border-radius: 25%;
+  position: static;
 }
 
 
