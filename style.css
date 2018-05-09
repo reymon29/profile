@@ -1,5 +1,5 @@
 body {
-  background-color: #e6f9db;
+  background-color: #e3e7e8;
   font-family: 'Lora', serif;
   line-height: 1.2;
   font-size: 16px;
@@ -29,7 +29,7 @@ ul {
 }
 
 a {
-  color: #3d9637;
+  color: #546266;
   text-decoration: none;
   font-size: 17px;
   list-style-type: none;
@@ -45,16 +45,16 @@ p {
 
 
 .container {
-  width: 80%;
-  margin: 5% auto;
+  width: 750px;
+  margin: 2% auto;
 }
 
 .card {
-  background: #53d6ed;
+  background: #c5dfe5;
   padding: 30px;
   margin: 25px 20px;
   border-radius: 10px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -79,12 +79,12 @@ p {
 }
 
 .sidebar {
-  width: 130px;
+    width: 130px;
     position: fixed;
     z-index: 1;
     top: 20px;
     left: 10px;
-    background: #4b4e4f;
+    background: #e3e7e8;
     overflow-x: hidden;
     padding: 8px 0;
 }
@@ -93,13 +93,9 @@ p {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #3d9637;
     display: block;
 }
 
-.sidebar a:hover {
-    color: #064579;
-}
 
 #page-content {
   margin-left: 300px;
