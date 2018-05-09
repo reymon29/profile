@@ -1,0 +1,99 @@
+body {
+  background-color: #e6f9db;
+  font-family: 'Lora', serif;
+  line-height: 1.2;
+  font-size: 16px;
+  text-align: center
+}
+
+h1 {
+  color: #4b4e4f;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 25px;
+  color: #4b4e4f;
+}
+
+h4 {
+  font-size: 25px;
+  color: #4b4e4f;
+  padding: 0 auto;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #3d9637;
+  text-decoration: none;
+  font-size: 17px;
+  list-style-type: none;
+}
+
+a:hover{
+  color: #b5cec2;
+}
+
+p {
+  font-size: 15px;
+}
+
+
+.container {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.card {
+  background: #53d6ed;
+  padding: 30px;
+  margin: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-image-size {
+  height: 150px;
+  width: 30%;
+  border-radius: 25%;
+  position: static;
+}
+
+.fa {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+#card-image-intrest-size {
+  height: 200px;
+  width: 150px;
+  border-radius: 50%
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
